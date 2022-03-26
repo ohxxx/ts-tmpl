@@ -4,7 +4,8 @@
   "description": "纯 TypeScript 项目的启动模版",
   "main": "index.js",
   "scripts": {
-    "test": "vitest"
+    "test": "vitest",
+    "build": "rm -rf dist && tsup"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,7 @@
   },
   "homepage": "https://github.com/xxxDeveloper/ts-tmpl#readme",
   "devDependencies": {
+    "typescript": "^4.6.3",
     "tsup": "^5.12.1",
     "vite": "^2.8.6",
     "vitest": "^0.7.11"

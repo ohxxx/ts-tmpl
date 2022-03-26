@@ -2,11 +2,13 @@ lockfileVersion: 5.3
 
 specifiers:
   tsup: ^5.12.1
+  typescript: ^4.6.3
   vite: ^2.8.6
   vitest: ^0.7.11
 
 devDependencies:
-  tsup: 5.12.1
+  tsup: 5.12.1_typescript@4.6.3
+  typescript: 4.6.3
   vite: 2.8.6
   vitest: 0.7.11
 
@@ -849,7 +851,7 @@ packages:
     resolution: {integrity: sha512-Y/arvbn+rrz3JCKl9C4kVNfTfSm2/mEp5FSz5EsZSANGPSlQrpRI5M4PKF+mJnE52jOO90PnPSc3Ur3bTQw0gA==}
     dev: true
 
-  /tsup/5.12.1:
+  /tsup/5.12.1_typescript@4.6.3:
     resolution: {integrity: sha512-vI7E4T6+6n5guQ9UKUOkQmzd1n4V9abGK71lbnzJMLJspbkNby5zlwWvgvHafLdYCb1WXpjFuqqmNLjBA0Wz3g==}
     hasBin: true
     peerDependencies:
@@ -872,6 +874,7 @@ packages:
       source-map: 0.7.3
       sucrase: 3.20.3
       tree-kill: 1.2.2
+      typescript: 4.6.3
     transitivePeerDependencies:
       - supports-color
       - ts-node
@@ -880,6 +883,12 @@ packages:
   /type-detect/4.0.8:
     resolution: {integrity: sha512-0fr/mIH1dlO+x7TlcMy+bIDqKPsw/70tVyeHW787goQjhmqaZe10uwLujubK9q9Lg6Fiho1KUKDYz0Z7k7g5/g==}
     engines: {node: '>=4'}
+    dev: true
+
+  /typescript/4.6.3:
+    resolution: {integrity: sha512-yNIatDa5iaofVozS/uQJEl3JRWLKKGJKh6Yaiv0GLGSuhpFJe7P3SbHZ8/yjAHRQwKRoA6YZqlfjXWmVzoVSMw==}
+    engines: {node: '>=4.2.0'}
+    hasBin: true
     dev: true
 
   /vite/2.8.6:
