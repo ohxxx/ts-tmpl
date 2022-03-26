@@ -1,8 +1,20 @@
-# Cache objects
-packer_cache/
+# Ide
+*.DS_Store
+.idea
 
-# Crash log
-crash.log
 
-# For built boxes
-*.box
+# Logs
+logs
+*.log
+pnpm-debug.log*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+
+# Dependency directories
+node_modules
+
+
+# Build
+dist

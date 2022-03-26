@@ -1,0 +1,24 @@
+{
+  "name": "ts-tmpl",
+  "version": "0.0.1",
+  "description": "纯 TypeScript 项目的启动模版",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xxxDeveloper/ts-tmpl.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xxxDeveloper/ts-tmpl/issues"
+  },
+  "homepage": "https://github.com/xxxDeveloper/ts-tmpl#readme",
+  "devDependencies": {
+    "tsup": "^5.12.1",
+    "vite": "^2.8.6",
+    "vitest": "^0.7.11"
+  }
+}
