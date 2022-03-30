@@ -10,7 +10,7 @@
 
 ## Features
 
-- ⚡️ [Cli](https://vitejs.dev/)
-- 🍔 [PackageManager](https://pnpm.io/)
-- 🛠 [Test](https://vitest.dev/)
-- 📦 [Build](https://github.com/eghttps://tsup.egoist.sh/)
+- ⚡️ [Cli - Vite](https://vitejs.dev/)
+- ⚡️ [ESLint](https://github.com/antfu/eslint-config)
+- 🛠 [Test - Vitest](https://vitest.dev/)
+- 📦 [Build - Tsup](https://github.com/eghttps://tsup.egoist.sh/)
