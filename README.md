@@ -11,6 +11,6 @@
 ## Features
 
 - ⚡️ [Cli - Vite](https://vitejs.dev/)
-- ⚡️ [ESLint](https://github.com/antfu/eslint-config)
+- ⚡️ [ESLint - Antfu](https://github.com/antfu/eslint-config)
 - 🛠 [Test - Vitest](https://vitest.dev/)
 - 📦 [Build - Tsup](https://github.com/eghttps://tsup.egoist.sh/)
