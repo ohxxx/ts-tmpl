@@ -2,27 +2,27 @@
   "name": "ts-tmpl",
   "version": "0.0.1",
   "description": "纯 TypeScript 项目的启动模版",
+  "license": "MIT",
+  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xxxDeveloper/ts-tmpl.git"
+  },
   "main": "index.js",
   "scripts": {
     "test": "vitest",
     "build": "rm -rf dist && tsup"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/xxxDeveloper/ts-tmpl.git"
-  },
-  "author": "",
-  "license": "ISC",
   "bugs": {
     "url": "https://github.com/xxxDeveloper/ts-tmpl/issues"
   },
   "homepage": "https://github.com/xxxDeveloper/ts-tmpl#readme",
   "devDependencies": {
-    "@antfu/eslint-config": "^0.19.1",
-    "eslint": "^8.12.0",
-    "tsup": "^5.12.1",
-    "typescript": "^4.6.3",
-    "vite": "^2.8.6",
-    "vitest": "^0.7.11"
+    "@antfu/eslint-config": "^0.19.4",
+    "eslint": "^8.15.0",
+    "tsup": "^5.12.7",
+    "typescript": "^4.6.4",
+    "vite": "^2.9.9",
+    "vitest": "^0.7.13"
   }
 }

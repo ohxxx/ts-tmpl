@@ -5,5 +5,5 @@ export default defineConfig({
   sourcemap: true,
   clean: true,
   splitting: false,
-  format: ['cjs']
+  format: ['cjs'],
 })
